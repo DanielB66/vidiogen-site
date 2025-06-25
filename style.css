@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 20px;
+}
+h1, h2 {
+    color: #2a5d84;
+}
+iframe {
+    border: none;
+}
