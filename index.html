@@ -1,21 +1,37 @@
-
 <!DOCTYPE html>
-<html lang="he" dir="rtl">
+<html lang="he">
 <head>
   <meta charset="UTF-8">
-  <title>VidioGen – דוחות Tableau</title>
+  <title>VidioGen – דף הבית</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>מערכת ניתוח עסקי – VidioGen</h1>
-    <p>ברוכים הבאים לאתר הדוחות של חברת VidioGen – המתמחה ביצירת סרטוני וידאו מבוססי AI בהתאמה אישית.</p>
-    <p>בחרו את הדשבורד הרצוי:</p>
-    <ul>
-      <li><a href="dashboard_strategic.html">📊 דשבורד אסטרטגי – הנהלה בכירה</a></li>
-      <li><a href="dashboard_managerial.html">🧑‍💼 דשבורד ניהולי – צוות שיווק</a></li>
-      <li><a href="dashboard_operational.html">⚙️ דשבורד תפעולי – הפקה ולוגיסטיקה</a></li>
-    </ul>
+  <div class='tableauPlaceholder' id='vizMain'>
+    <noscript>
+      <a href='#'><img alt='VidioGen – דף הבית' src='https://public.tableau.com/static/images/Vi/VidioGen/VidioGen/1.png' style='border: none' /></a>
+    </noscript>
+    <object class='tableauViz'>
+      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+      <param name='embed_code_version' value='3' />
+      <param name='name' value='VidioGen/VidioGen' />
+      <param name='tabs' value='no' />
+      <param name='toolbar' value='yes' />
+      <param name='static_image' value='https://public.tableau.com/static/images/Vi/VidioGen/VidioGen/1.png' />
+      <param name='animate_transition' value='yes' />
+      <param name='display_static_image' value='yes' />
+      <param name='display_spinner' value='yes' />
+      <param name='display_overlay' value='yes' />
+      <param name='display_count' value='yes' />
+      <param name='language' value='he-IL' />
+    </object>
   </div>
+  <script type='text/javascript'>
+    var divElement = document.getElementById('vizMain');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    vizElement.style.display = 'block';
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  </script>
 </body>
 </html>
